@@ -8,9 +8,6 @@ body{
     background: #161817;
     font-family: 'Poppins', sans-serif;
 }
-.header-nav{
-    position: top;
-}
 .showcase{
     float:left;
     position: relative;
@@ -66,7 +63,15 @@ body{
     transform: scaleY(1.1) scaleX(1.1);
     cursor: pointer;
 }
-.box .content a{
+a{
     text-decoration: none;
-    color: #8cacac;
+    color:#00787a;
+    transition: 0.5;
+}
+.back-button{
+    font-size: 70px;
+    transition: 0.5s;
+}
+.back-button:hover {
+    transform: scaleY(1.2) scaleX(1.2);
 }
