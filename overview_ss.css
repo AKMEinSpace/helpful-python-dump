@@ -70,7 +70,7 @@ a{
 }
 .back-button{
     font-size: 70px;
-    transition: 0.5s;
+    transition: 0.5;
 }
 .back-button:hover {
     transform: scaleY(1.2) scaleX(1.2);

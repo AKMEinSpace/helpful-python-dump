@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+}
+a{
+    text-decoration: none;
+}
+.head-container{
+    padding: 0;
+    margin: 0;
+    background-color: #161817;
+    position: relative;
+    height: 200px;
+    background: #161817;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.5), 0 59px 90px 0 rgba(0, 0, 0, 0.651);
+}
+.head-container a{
+    padding: 20%;
+}
+.snek-room{
+    background-image: url("snek_goes_brrrr.png");
+    width: 100%;
+    position: relative;
+    display:grid;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    width:100%;
+    z-index: -1;
+    background-size: cover;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 0 40px;
+    justify-content: center;
+    align-items: center;
+}
+.snek-room .casket{
+    position: relative;
+    height: 200px;
+    background: #161817;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #002829;
+}
+
+.filler{
+    padding-top: 1000px;
+}
