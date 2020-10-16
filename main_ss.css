@@ -64,7 +64,6 @@ h2:hover{
     transform: scaleX(1.01) scaleY(1.01);
 }
 #about{
-    margin-top: 1000px;
     min-height: 400px;
     background: #161817;
     box-shadow: 0 16px 16px 17px black;
