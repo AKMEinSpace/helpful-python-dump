@@ -1,37 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     display: grid;
+    background-color: #e7e7de;
+}
+h1{
+    color: #0f3057;
 }
 a{
     text-decoration: none;
-}
-.head-container{
-    padding: 0;
-    margin: 0;
-    background-color: #161817;
-    position: relative;
-    height: 200px;
-    background: #161817;
-    display: flex;
+    color: #e7e7de;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.5), 0 59px 90px 0 rgba(0, 0, 0, 0.651);
+    min-width: 140px;
 }
-.head-container a{
-    padding: 20%;
+h2{
+    transition: 0.5s;
+}
+h2:hover{
+    transform: scaleX(1.3) scaleY(1.3);
+}
+.head-container{
+    position: relative;
+    background: #161817;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 0 40px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    box-shadow: 0 12px 10px -10px black;
 }
 .snek-room{
-    background-image: url("snek_goes_brrrr.png");
+    padding:0;
     width: 100%;
     position: relative;
     display:grid;
-    background-repeat: no-repeat;
     min-height: 400px;
     width:100%;
-    z-index: -1;
-    background-size: cover;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     grid-template-rows: auto;
     grid-gap: 0 40px;
@@ -41,13 +52,20 @@ a{
 .snek-room .casket{
     position: relative;
     height: 200px;
-    background: #161817;
+    background: #0f3057;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #002829;
+    transition: 1.2s;
 }
-
-.filler{
-    padding-top: 1000px;
+.snek-room .casket:hover{
+    box-shadow: 0 12px 10px -10px black;
+    transform: scaleX(1.01) scaleY(1.01);
+}
+#about{
+    margin-top: 1000px;
+    min-height: 400px;
+    background: #161817;
+    box-shadow: 0 16px 16px 17px black;
 }
