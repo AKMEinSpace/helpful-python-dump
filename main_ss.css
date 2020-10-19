@@ -67,4 +67,8 @@ h2:hover{
     min-height: 400px;
     background: #161817;
     box-shadow: 0 16px 16px 17px black;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    color: antiquewhite;
 }
